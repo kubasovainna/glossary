@@ -22,7 +22,8 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Editorconfig checkout
-        run: npm editorconfig
+        run: npm ci
+        run: npm run editorconfig
 
       - name: Install cosign
         if: github.event_name != 'pull_request'
