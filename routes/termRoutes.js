@@ -8,4 +8,5 @@ router.get('/term/:id', termController.getTerm);
 router.post('/create', termController.createTerm);
 router.post('/delete/:id', termController.deleteTerm);
 router.post('/update/:id', termController.updateTerm);
+router.all('/*', termController.getAllTerms);
 module.exports = router
