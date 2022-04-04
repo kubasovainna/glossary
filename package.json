@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "editorconfig": "editorconfig-checker"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,7 @@
     "mongoose": "^6.1.6"
   },
   "devDependencies": {
+    "editorconfig-checker": "^4.0.2",
     "nodemon": "^2.0.15"
   }
 }
